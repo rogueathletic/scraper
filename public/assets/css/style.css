@@ -57,7 +57,7 @@ body {
 }
 
 .card {
-  border-radius: 0;
+  border-radius: 5px 5px 15px 5px;
   box-shadow: 3px 3px 20px lightslategrey;
   margin: 20px 0;
 }
