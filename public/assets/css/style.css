@@ -47,30 +47,11 @@ body {
 
 .jumbotron .background-image {
   height: 100%;
-  background-image: url("../images/newspaper.jpg");
+  background-image: url("../images/nytscraperpromo_final.gif");
   background-size: cover;
+  width: 100vw;
 }
 
-.jumbotron .caption {
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  text-align: center;
-}
-
-.jumbotron .caption h1,
-.jumbotron .caption p {
-  color: white;
-}
-
-.jumbotron h1 {
-  font-size: 80px;
-  font-weight: 800;
-}
-
-.jumbotron p {
-  font-size: 30px;
-}
 
 .article-container {
   padding-bottom: 25px;
