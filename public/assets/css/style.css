@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   width: 100%;
   background-size: 100% auto;
-
+border-radius: 0px 5px 15px 99px;
 }
 
 .article-container {
@@ -91,13 +91,17 @@ color: darkslategray;
 
 .navbar-nav > li > a.scrape-new:hover,
 .navbar-nav > li > a.clear:hover {
-  background: #66aeae;
+  background: #ffffff;
 }
 
 .navbar-nav > li > a.scrape-new:active {
-  background: #66aeae;
+  background: #ffffff;
 }
 
+.navbar-nav {
+  width: 98vw;
+  margin: 0 0 0 1vw;
+}
 .scrape-new {
   cursor: pointer;
 }
