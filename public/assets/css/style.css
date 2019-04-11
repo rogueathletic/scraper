@@ -49,9 +49,8 @@ body {
   height: 100%;
   background-image: url("../images/nytscraperpromo_final.gif" );
   background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width: 110%;
+
 }
 
 
