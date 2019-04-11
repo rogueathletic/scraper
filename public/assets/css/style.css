@@ -1,16 +1,4 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
 
-body {
-  margin-bottom: 80px;
-  background-image: url("../images/paper.png");
-}
-
-.card a:not([href]):not([tabindex]).scrape-new {
-  color: rgb(98, 98, 99);
-}
 
 .footer {
   position: absolute;
@@ -34,25 +22,16 @@ body {
   box-shadow: 10px 5px 20px 2px white;
 }
 
-.jumbotron .overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: auto;
-  /* background: linear-gradient(#333, black); */
-  opacity: 0.7;
-}
+
 
 .jumbotron .background-image {
   height: 100%;
   background-image: url("../images/nytscraperpromo_final.gif" );
   background-repeat: no-repeat;
   width: 100%;
+  background-size: 100% auto;
 
 }
-
 
 .article-container {
   padding-bottom: 25px;
