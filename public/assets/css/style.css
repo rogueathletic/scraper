@@ -66,7 +66,7 @@ body {
 }
 
 .card .card-header {
-  background-color: #2196f3;
+  background-color: rgb(98, 98, 99);
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -106,7 +106,7 @@ body {
   padding-left: 10px;
   margin: 0;
   font-weight: 800;
-  background: #0c7cd5;
+  background: rgb(98, 98, 99);
 }
 
 .navbar-nav > li > a.scrape-new,
@@ -120,11 +120,11 @@ body {
 
 .navbar-nav > li > a.scrape-new:hover,
 .navbar-nav > li > a.clear:hover {
-  background: #4caf50;
+  background: #66aeae;
 }
 
 .navbar-nav > li > a.scrape-new:active {
-  background: #e51c23;
+  background: #66aeae;
 }
 
 .scrape-new {
