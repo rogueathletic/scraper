@@ -75,6 +75,10 @@ border-radius: 0px 5px 15px 99px;
   width: 80%;
 }
 
+#bottom-buttons {
+  display: inline;
+  justify-content: space-evenly;
+}
 
 #footer-copyright {
 color: darkslategray;
