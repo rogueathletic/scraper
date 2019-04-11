@@ -100,12 +100,11 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  margin: 0;
-  font-weight: 800;
-  background: rgb(255, 255, 255);
+
+}
+
+footer-copyright {
+color: darkslategray;
 }
 
 .navbar-nav > li > a.scrape-new,
