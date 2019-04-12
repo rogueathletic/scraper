@@ -28,7 +28,7 @@ var scrape = function() {
 
       // Then we grab any children with the class of summary and then grab it's inner text
       // We store this to the sum variable. This is the article summary
-      var sum = $(this).text().trim();
+      var sum = $(this).find("p").text().trim();
 
       // So long as our headline and sum and url aren't empty or undefined, do the following
       if (head && sum && url) {
