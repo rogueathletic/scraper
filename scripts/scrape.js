@@ -8,7 +8,7 @@ var cheerio = require("cheerio");
 // This function will scrape the NYTimes website
 var scrape = function() {
   // Scrape the NYTimes website
-  return axios.get("http://www.nytimes.com").then(function(res) {
+  return axios.get("http://www.latimes.com").then(function(res) {
     var $ = cheerio.load(res.data);
     console.log("scraping");
     // Make an empty array to save our article info
@@ -16,27 +16,19 @@ var scrape = function() {
 
     // Now, find and loop through each element that has the "css-180b3ld" class
     // (i.e, the section holding the articles)
-    $("div.css-1100km").each(function(i, element) {
+    $("div").each(function(i, element) {
       // In each article section, we grab the child with the class story-heading
 
       // Then we grab the inner text of the this element and store it
       // to the head variable. This is the article headline
-      var head = $(this)
-        .find("h2")
-        .text()
-        .trim();
+      var head = $(this).find("h4").text().trim();
 
       // Grab the URL of the article
-      var url = $(this)
-        .find("a")
-        .attr("href");
+      var url = $(this).find("a").attr("href");
 
       // Then we grab any children with the class of summary and then grab it's inner text
       // We store this to the sum variable. This is the article summary
-      var sum = $(this)
-        .find("p")
-        .text()
-        .trim();
+      var sum = $(this).text().trim();
 
       // So long as our headline and sum and url aren't empty or undefined, do the following
       if (head && sum && url) {
@@ -50,7 +42,7 @@ var scrape = function() {
         var dataToAdd = {
           headline: headNeat,
           summary: sumNeat,
-          url: "https://www.nytimes.com" + url
+          url: "https://www.latimes.com" + url
         };
 
         articles.push(dataToAdd);

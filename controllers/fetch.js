@@ -14,20 +14,20 @@ module.exports = {
       .then(function(dbHeadline) {
         if (dbHeadline.length === 0) {
           res.json({
-            message: "No new articles today. Check back tomorrow!"
+            message: "Awe, bummer you have read everything already"
           });
         }
         else {
           // Otherwise send back a count of how many new articles we got
           res.json({
-            message: "Added " + dbHeadline.length + " new articles!"
+            message: "updated " + dbHeadline.length + " new articles!"
           });
         }
       })
       .catch(function(err) {
         // This query won't insert articles with duplicate headlines, but it will error after inserting the others
         res.json({
-          message: "Scrape complete!!"
+          message: "All done."
         });
       });
   }
