@@ -7,7 +7,7 @@
   <span>&nbsp;&nbsp;&nbsp; E &nbsp;&nbsp;&nbsp;</span>
   <span>&nbsp;&nbsp;&nbsp; R &nbsp;&nbsp;&nbsp;</span>
 </h1>
-<hr>
+
 <h5 align="center">
   <span>&nbsp;&nbsp;&nbsp; L &nbsp;&nbsp;&nbsp;</span>
   <span>&nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp;</span>
