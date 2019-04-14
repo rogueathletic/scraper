@@ -28,5 +28,7 @@
   <span>&nbsp;&nbsp;&nbsp; O &nbsp;&nbsp;&nbsp;</span>
   <span>&nbsp;&nbsp;&nbsp; N &nbsp;&nbsp;&nbsp;</span>
 </p>
+<a href='https://scraper2019.herokuapp.com/' target="_blank">
 <img src="https://raw.githubusercontent.com/rogueathletic/scraper/master/public/assets/images/nyt-scraper-gif-final.gif">
+</a>
 <hr>
