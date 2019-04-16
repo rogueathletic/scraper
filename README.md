@@ -32,5 +32,22 @@
 <img src="https://raw.githubusercontent.com/rogueathletic/scraper/master/public/assets/images/nyt-scraper-gif-final.gif">
 </a>
 <p align="center">( Click above to enter )</p>
+
+<p>complex web scraper proof of concept. Completing a git pull via AJAX api call to a non-api source to collect and return structured, formatted and styled data on click from over the internet. </p>
+
+Utilizing a myriad of coding family structures listed below:
+
+ - NPM/Node
+ - Express
+ - Heroku
+ - Mongo
+ - Mongo DB
+ - VS Code
+ - HTML
+ - CSS
+ - Javascript
+ - $Jquery
+ - Terminal
+ - Bootstrap
 <hr>
 <p align="center"><a href="mailto:jason@skunkworksweb.io">@ 2019 | Jason Schutz</a></p>
