@@ -5,13 +5,16 @@
   bottom: 0;
   width: 100%;
   height: 80px;
-  background-color: rgb(98, 98, 99);
+  background-color: #ffffff;
 }
 
 .navbar {
   margin-bottom: 0;
 }
-
+#saved-hdr {
+  text-align: center;
+  letter-spacing: 10px;
+}
 .jumbotron {
   position: relative;
   width: 90%;
