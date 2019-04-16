@@ -52,17 +52,17 @@
       <div class="card-header">
         <h3>
           <a class="article-link" target="_blank" rel="noopener noreferrer" href="{{this.url}}">{{this.headline}}</a>
-          <a class="btn btn-light delete">Remove</a>
+          <a class="btn btn-light delete" id="remove-btn">Remove</a>
         
-          <a class="btn btn-success notes">Article Comments</a>
+          <a class="btn btn-success notes"> Comments</a>
         </h3>
       </div>
       <div class="card-body">{{this.summary}}</div>
     </div>
   {{/each}}
   {{#unless articles.length}}
-    <div class="alert alert-secondary text-center">
-      <h4>Nothing to see here, come by later.</h4>
+    <div class="alert alert-dark text-center">
+      <h4>No new articles but did you know </h4>
     </div>
     <div class="card">
       <div class="card-header text-center">
