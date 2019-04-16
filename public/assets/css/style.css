@@ -6,8 +6,11 @@
   width: 100%;
   height: 80px;
   background-color: #ffffff;
+  
 }
-
+#footer  {
+  text-align: center;
+}
 .navbar {
   margin-bottom: 0;
 }
