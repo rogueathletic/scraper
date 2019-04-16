@@ -31,4 +31,6 @@
 <a href='https://scraper2019.herokuapp.com/' target="_blank">
 <img src="https://raw.githubusercontent.com/rogueathletic/scraper/master/public/assets/images/nyt-scraper-gif-final.gif">
 </a>
+<span align="center">( Click above to enter )</span>
 <hr>
+<span align="center"><a href="mailto:jason@skunkworksweb.io">@ 2019 | Jason Schutz</a></span>
